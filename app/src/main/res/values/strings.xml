@@ -32,8 +32,12 @@
     <string name="mes">Abr</string>
     <string name="confirmarReserva">CONFIRMAR RESERVA</string>
     <string name="padel">Pádel</string>
+    <string name="spinning">Spinning</string>
     <string name="tipo_deporte">Tipo Deporte</string>
     <string name="ver">VER</string>
+    <string name="reservar">RESERVAR</string>
     <string name="seleccionarActividad">Seleccionar Actividad</string>
+    <string name="seleccionaFecha">Selecciona fecha</string>
+    <string name="seleccionaHora">Selecciona hora</string>
 
 </resources>
