@@ -48,7 +48,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout2Gim"
+        android:id="@+id/layout2Piscina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/layout2Gim"
-            android:id="@+id/tv_fechaGim"
+            android:id="@+id/tv_fechaPiscina"
             android:text="@string/seleccionaFecha"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -72,16 +72,16 @@
             android:id="@+id/rv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/tv_fechaGim"/>
+            app:layout_constraintTop_toBottomOf="@id/tv_fechaPiscina"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout3Gim"
+        android:id="@+id/layout3Piscina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/layout2Gim"
+        app:layout_constraintTop_toBottomOf="@id/layout2Piscina"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
@@ -89,8 +89,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/layout2Gim"
-            android:id="@+id/tv_horaGim"
+            app:layout_constraintTop_toBottomOf="@id/layout2Piscina"
+            android:id="@+id/tv_horaPiscina"
             android:text="@string/seleccionaHora"
             android:textSize="20sp"
             android:textColor="@color/white"
@@ -101,15 +101,15 @@
             android:id="@+id/rv3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/tv_horaGim"/>
+            app:layout_constraintTop_toBottomOf="@id/tv_horaPiscina"/>
 
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/layout4Gim"
+        android:id="@+id/layout4Piscina"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/layout3Gim"
+        app:layout_constraintTop_toBottomOf="@id/layout3Piscina"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -119,7 +119,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_reservarGim"
+        android:id="@+id/btn_reservarPiscina"
         android:text="@string/reservar"
         android:backgroundTint="@color/white"
         android:textColor="@color/colorPrimary"/>
