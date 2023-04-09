@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#0099ff</color>
+    <color name="colorPrimaryDark">#0099ff</color>
+    <color name="grey">#FF515151</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Polideportivo</string>
+    <string name="confirmarReserva">CONFIRMAR RESERVA</string>
+    <string name="default_web_client_id" translatable="false">994272246797-v8fmb3pa478md7ubtu3lkbntadah10ol.apps.googleusercontent.com</string>
+    <string name="dia">Lun</string>
+    <string name="diaNum">4</string>
+    <string name="direccion">Dirección</string>
+    <string name="email">Email</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="forgot_password">Recuperar contraseña</string>
+    <string name="gcm_defaultSenderId" translatable="false">994272246797</string>
+    <string name="google_api_key" translatable="false">AIzaSyAl8UmhpLBudZt5ZHOMP_Kprq5R8jtvtIs</string>
+    <string name="google_app_id" translatable="false">1:994272246797:android:0c53109795ca46fed2e944</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAl8UmhpLBudZt5ZHOMP_Kprq5R8jtvtIs</string>
+    <string name="google_icon">google icon</string>
+    <string name="google_storage_bucket" translatable="false">polideportivo-5627a.appspot.com</string>
+    <string name="horariosDisponibles">HORARIOS DISPONIBLES</string>
+    <string name="login">Entrar</string>
+    <string name="mes">Abr</string>
+    <string name="movil">Móvil</string>
+    <string name="nombre">Nombre</string>
+    <string name="or">OR</string>
+    <string name="padel">Pádel</string>
+    <string name="password">Contraseña</string>
+    <string name="primerApellido">1ºApellido</string>
+    <string name="project_id" translatable="false">polideportivo-5627a</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="repitePassword">Repite contraseña</string>
+    <string name="reservaGim">ACTIVIDADES DE GIMNASIO</string>
+    <string name="reservaPiscina">ACTIVIDADES DE PISCINA</string>
+    <string name="reservaPista">RESERVA DE PISTAS</string>
+    <string name="reservar">RESERVAR</string>
+    <string name="segundoApellido">2ºApellido</string>
+    <string name="seleccionaFecha">Selecciona fecha</string>
+    <string name="seleccionaHora">Selecciona hora</string>
+    <string name="seleccionarActividad">Seleccionar Actividad</string>
+    <string name="spinning">Spinning</string>
+    <string name="tipo_deporte">Tipo Deporte</string>
+    <string name="ver">VER</string>
+    <style name="Theme.Polideportivo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

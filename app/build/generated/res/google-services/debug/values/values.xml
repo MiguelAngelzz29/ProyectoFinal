@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">994272246797-v8fmb3pa478md7ubtu3lkbntadah10ol.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">994272246797</string>
+    <string name="google_api_key" translatable="false">AIzaSyAl8UmhpLBudZt5ZHOMP_Kprq5R8jtvtIs</string>
+    <string name="google_app_id" translatable="false">1:994272246797:android:0c53109795ca46fed2e944</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAl8UmhpLBudZt5ZHOMP_Kprq5R8jtvtIs</string>
+    <string name="google_storage_bucket" translatable="false">polideportivo-5627a.appspot.com</string>
+    <string name="project_id" translatable="false">polideportivo-5627a</string>
+</resources>
