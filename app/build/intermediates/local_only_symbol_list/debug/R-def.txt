@@ -122,6 +122,7 @@ layout activity_inicio
 layout activity_main
 layout activity_registro
 layout activity_reserva_gim
+layout activity_reserva_piscina
 layout activity_reserva_pistas
 layout recyclerview_dias
 layout recyclerview_gim

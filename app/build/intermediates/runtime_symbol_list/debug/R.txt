@@ -3571,6 +3571,7 @@ int layout activity_inicio 0x7f0b001e
 int layout activity_main 0x7f0b001f
 int layout activity_registro 0x7f0b0020
 int layout activity_reserva_gim 0x7f0b0021
+int layout activity_reserva_piscina 0x7f0b0077
 int layout activity_reserva_pistas 0x7f0b0022
 int layout browser_actions_context_menu_page 0x7f0b0023
 int layout browser_actions_context_menu_row 0x7f0b0024

@@ -8,6 +8,10 @@
         "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\drawable\\gimnasio.jpg"
     },
     {
+        "merged": "es.miguel.polideportivo.app-merged_res-35:/layout_activity_reserva_piscina.xml.flat",
+        "source": "es.miguel.polideportivo.app-main-37:/layout/activity_reserva_piscina.xml"
+    },
+    {
         "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\drawable_facebook.png.flat",
         "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\drawable\\facebook.png"
     },
@@ -88,12 +92,12 @@
         "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\layout\\activity_confirmar_reserva_gim.xml"
     },
     {
-        "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\layout_activity_reserva_gim.xml.flat",
-        "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\layout\\activity_reserva_gim.xml"
-    },
-    {
         "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\layout_activity_reserva_gim.xml.flat",
+        "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\layout\\activity_reserva_gim.xml"
     },
     {
         "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\layout_activity_main.xml.flat",
@@ -158,10 +162,6 @@
     {
         "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\drawable_boxeo.jpg.flat",
         "source": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-main-37:\\drawable\\boxeo.jpg"
-    },
-    {
-        "merged": "es.miguel.polideportivo.app-merged_res-35:/layout_activity_confirmar_reserva_gim.xml.flat",
-        "source": "es.miguel.polideportivo.app-main-37:/layout/activity_confirmar_reserva_gim.xml"
     },
     {
         "merged": "C:\\Users\\migue\\.gradle\\daemon\\7.5\\es.miguel.polideportivo.app-merged_res-35:\\layout_activity_confirmar_reserva_pista.xml.flat",

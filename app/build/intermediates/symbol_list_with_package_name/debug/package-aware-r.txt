@@ -3572,6 +3572,7 @@ layout activity_inicio
 layout activity_main
 layout activity_registro
 layout activity_reserva_gim
+layout activity_reserva_piscina
 layout activity_reserva_pistas
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
