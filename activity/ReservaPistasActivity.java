@@ -29,6 +29,8 @@ public class ReservaPistasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reserva_pistas);
 
+
+
         // Datos RecyclerView días
         recyclerViewDias = findViewById(R.id.rv_listaDias);
         recyclerViewDias.setHasFixedSize(true);
@@ -47,37 +49,25 @@ public class ReservaPistasActivity extends AppCompatActivity {
         // Botón reserva
 
         btn_disponibilidad = findViewById(R.id.btn_horarios_disponibles);
-        btn_disponibilidad.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        btn_disponibilidad.setOnClickListener(v -> {
+
                 Intent intent = new Intent(ReservaPistasActivity.this,HorarioDisponibleActivity.class);
                 startActivity(intent);
-            }
+
         });
 
     }
 
-    public List<String> listaDias (){
+    public List<LocalDate> listaDias(){
 
-        List<String> listaDias = new ArrayList();
-        String hoy = "hoy";
-        String ayer = "ayer";
-        String manana = "mañana";
-        String hola = "hola";
-        String adios = "adios";
-        String bye = "bye";
-        String hello = "hello";
+        LocalDate hoy = LocalDate.now();
+        List<LocalDate> listaDias = new ArrayList<>();
 
-        listaDias.add(hoy);
-        listaDias.add(manana);
-        listaDias.add(hola);
-        listaDias.add(adios);
-        listaDias.add(bye);
-        listaDias.add(hello);
-
+        for(int i = 0; i < 7; i++){
+            listaDias.add(hoy.plusDays(i));
+        }
         return listaDias;
     }
-
     public List<String> listaHoras (){
 
         List<String> listaDias = new ArrayList();

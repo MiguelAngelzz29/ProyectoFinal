@@ -45,7 +45,7 @@ public class HorarioAdapter extends RecyclerView.Adapter<HorarioAdapter.ViewHold
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            horario1= itemView.findViewById(R.id.tv_horario1);
+            horario1= itemView.findViewById(R.id.btn_horario);
 
         }
     }
